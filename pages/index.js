@@ -2,8 +2,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
-import logo from '../public/assets/logoSn.png'
-import Link from 'next/link'
+import Link from 'next/link';
+import bg from '../public/assets/bg.png'
 
 
 
@@ -19,32 +19,24 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className='container'>
-      <div className='container-nav'>
-        <div className='logo'>  
-        <Link href="/">
-          <Image src={logo} />
-        </Link>
-        </div>
-      
-        <div>
-            <nav>
-              <Link href="/Termes">Termes et Conditions</Link>
-              <Link href="/Politique">Politique de confidentialité</Link>
-            </nav>
-        </div>
-      </div>
      
-      <div>
-        <div>
-        <div></div>
-        <div>
-          <p>ghqdghqshgqdhjqed</p>
+     
+      <div className='container-card'>
+        <div className='container-left'>
+        <div className='ctn-image'><Image src={bg}/></div>
+        </div>
+        <div className='container-right'>
+          <div className='ctn-description'>
+            <p className='description'>Une application mobile 100 % Congolaise.</p>
+            <p className='description'> Déjà disponible pour Android sur PlayStore et Ios sur  AppStore</p>
+          </div>
+         
           <button> 
           <Link href="/Contact">Contact</Link>
           </button>
         </div>
-        </div>
-        <div> Copyright 2023Divin Diongo M. </div>
+        
+       
       </div>
       </main>
     </>
