@@ -6,10 +6,10 @@ import'@/styles/styles.css'
 export default function App({ Component, pageProps }) {
   return (
 
-    <>
+    <div className='ctn'>
     <Header/>
     <Component {...pageProps} />
     <Footer/>
-    </>
+    </div>
   )
 }
