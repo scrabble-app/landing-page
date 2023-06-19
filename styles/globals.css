@@ -93,7 +93,7 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb)); */
-    background: rgba(156, 184, 223, 0.49);
+    background:#556376;
 
 }
 
