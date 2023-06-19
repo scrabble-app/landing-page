@@ -1,6 +1,6 @@
 export default function Politique (){
     return(
-        <div>
+        <div className="politique">
             <h1>Politique de confidentialité</h1>
             <diiv>
                 <h3>
@@ -19,9 +19,9 @@ export default function Politique (){
                 </p>
             </div>
             <div>
-                <p>
+                <h5>
                     Données personnelles recueillies Nous recueillons les données personnelles suivantes sur la plateforme :
-                </p>
+                </h5>
                 <ul>
                     <li>
                         Nom et prénom
@@ -45,9 +45,9 @@ export default function Politique (){
                         Historique des paris
                     </li>
                 </ul>
-                <p> 
+                <h5> 
                     Informations bancaires Utilisation des données personnelles Nous utilisons vos données personnelles uniquement pour le but pour lequel elles ont été recueillies, à savoir :
-                </p>
+                </h5>
                 <ul>
                     <li>
                         Vous fournir des informations sur les paris et vous permettre de parier de l’argent sur la plateforme.
@@ -71,9 +71,9 @@ export default function Politique (){
                         Vous fournir une expérience en ligne sécurisée. Partage des données personnelles Nous partageons certaines de vos données personnelles avec des tiers qui nous aident à fournir des services et à fournir une meilleure expérience à nos utilisateurs. Nous ne partagerons pas vos informations bancaires à des tiers sans votre autorisation préalable.
                     </li>
                 </ul>
-                <p>
+                <h5>
                     Nous pouvons partager vos données personnelles avec des tiers lorsque :
-                </p>
+                </h5>
                 <ul>
                     <li>
                         Vous avez donné votre consentement.

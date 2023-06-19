@@ -31,7 +31,7 @@ export default function Home() {
             <p className='description'> Déjà disponible pour Android sur PlayStore et Ios sur  AppStore</p>
           </div>
          
-          <button> 
+          <button className='btn'> 
           <Link href="/Contact">Contact</Link>
           </button>
         </div>
