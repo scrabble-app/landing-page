@@ -31,7 +31,7 @@
 }
 h3{
     display: block;
-    font-size: 1.17em;
+    font-size: 1.5rem;
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
@@ -81,7 +81,8 @@ a{
   }
   
   h1{
-    color:#000
+    color:#fff;
+    text-align: center;
   }
   .container-nav{
     display: flex;
@@ -153,3 +154,87 @@ h2{
     font-size: 1.2rem;
     text-align: center;
 }
+
+.terme{
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+p{
+  font-size: 1.1rem;
+  line-height: 1.43;
+}
+ul{
+  padding-left: 1.5rem;
+  
+}
+li{
+  font-size: 1.1rem;
+  line-height: 1.43;
+
+
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+  }
+  .container-nav{
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 0;
+  }
+  .logo{
+  margin-bottom: 1rem;
+}
+img{
+  width: 100%;
+}
+.link{
+  font-size: 1rem;
+}
+nav{
+  padding-left: 0;
+  padding-right: 0;
+}
+.container-card{
+  display: flex;
+  flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+.container-left{
+  width: 100%;
+  align-items: center;
+  align-content: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.container-right{
+  width: 100%;
+  align-items: center;
+  align-content: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.description{
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+.ctn-description{
+  padding-right:0;
+  text-align: center;
+}
+h1{
+  color:#fff;
+  font-size: 1.2rem;
+  text-align: center;
+}
+.footer{
+  /* background: rgba(156, 184, 223, 0.49); */
+  color: #fff;
+  height: 3.7rem;  
+  padding-top: 1rem;
+}
+}
+
